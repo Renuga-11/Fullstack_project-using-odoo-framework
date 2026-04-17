@@ -1,0 +1,50 @@
+<odoo>
+    <!-- List View -->
+    <record id="view_subject_tree" model="ir.ui.view">
+        <field name="name">subject.list</field>
+        <field name="model">student.subject</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="code"/>
+                <field name="description"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="view_subject_form" model="ir.ui.view">
+        <field name="name">subject.form</field>
+        <field name="model">student.subject</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name" placeholder="e.g., Mathematics"/>
+                        <field name="code" placeholder="e.g., MATH101"/>
+                        <field name="description"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Search View -->
+    <record id="view_subject_search" model="ir.ui.view">
+        <field name="name">subject.search</field>
+        <field name="model">student.subject</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="code"/>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action -->
+    <record id="action_subject" model="ir.actions.act_window">
+        <field name="name">Subjects</field>
+        <field name="res_model">student.subject</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

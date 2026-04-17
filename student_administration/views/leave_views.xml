@@ -1,0 +1,94 @@
+<odoo>
+    <!-- LIST VIEW -->
+    <record id="view_leave_list" model="ir.ui.view">
+        <field name="name">leave.list</field>
+        <field name="model">student.leave</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="student_id"/>
+                <field name="student_class"/>
+                <field name="leave_reason"/>
+                <field name="leave_from"/>
+                <field name="leave_to"/>
+                <field name="no_of_days"/>
+                <field name="state"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- FORM VIEW -->
+    <record id="view_leave_form" model="ir.ui.view">
+        <field name="name">leave.form</field>
+        <field name="model">student.leave</field>
+        <field name="arch" type="xml">
+            <form string="Student Leave">
+                <sheet>
+                    <group>
+                        <field name="student_id"/>
+                        <field name="student_class" readonly="1"/>
+                        <field name="student_email" readonly="1"/>
+                        <field name="student_phone" readonly="1"/>
+                        <field name="leave_reason"/>
+                        <field name="leave_from"/>
+                        <field name="leave_to"/>
+                        <field name="no_of_days"/>
+                        <field name="reason"/>
+                        <field name="state" readonly="1"/>
+                    </group>
+
+                    <footer>
+                        <button name="action_submit"
+                                string="Submit"
+                                type="object"
+                                class="btn-primary"
+                                invisible="state != 'draft'"/>
+
+                        <button name="action_approve"
+                                string="Approve"
+                                type="object"
+                                class="btn-success"
+                                invisible="state != 'submitted'"/>
+
+                        <button name="action_reject"
+                                string="Reject"
+                                type="object"
+                                class="btn-danger"
+                                invisible="state != 'submitted'"/>
+
+                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                    </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- SEARCH VIEW -->
+    <record id="view_leave_search" model="ir.ui.view">
+        <field name="name">leave.search</field>
+        <field name="model">student.leave</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="student_id"/>
+                <field name="leave_reason"/>
+                <field name="leave_from"/>
+                <field name="leave_to"/>
+                <field name="state"/>
+            </search>
+        </field>
+    </record>
+
+    <!-- CALENDAR VIEW -->
+    <record id="view_leave_calendar" model="ir.ui.view">
+        <field name="name">leave.calendar</field>
+        <field name="model">student.leave</field>
+        <field name="arch" type="xml">
+            <calendar string="Student Leave Calendar"
+                      date_start="leave_from"
+                      date_stop="leave_to"
+                      color="student_id">
+                <field name="student_id"/>
+                <field name="state"/>
+            </calendar>
+        </field>
+    </record>
+</odoo>

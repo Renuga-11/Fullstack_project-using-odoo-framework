@@ -1,0 +1,13 @@
+<odoo>
+    <menuitem id="menu_student_administration" name="Student Administration" sequence="10"/>
+    <menuitem id="menu_exam_management" name="Exam Management" parent="menu_student_administration" sequence="5"/>
+    <menuitem id="menu_dashboard" name="Dashboard" parent="menu_exam_management" action="spreadsheet_dashboard.ir_actions_dashboard_action" sequence="1"/>
+    <menuitem id="menu_subjects" name="Subjects" parent="menu_exam_management" action="action_subject" sequence="5"/>
+    <menuitem id="menu_skills" name="Skills" parent="menu_exam_management" action="action_skill" sequence="6"/>
+    <menuitem id="menu_exam_types" name="Exam Types" parent="menu_exam_management" action="action_exam_type" sequence="7"/>
+    <menuitem id="menu_exam" name="Exam Results" parent="menu_exam_management" action="action_exam" sequence="10"/>
+    <menuitem id="menu_result" name="Results" parent="menu_exam_management" action="action_result" sequence="20"/>
+    <menuitem id="menu_students" name="Students" parent="menu_student_administration" action="action_students" sequence="10"/>
+    <menuitem id="menu_attendance" name="Attendance" parent="menu_student_administration" action="action_attendance" sequence="20"/>
+    <menuitem id="menu_leave" name="Leave Management" parent="menu_student_administration" action="action_student_leave" sequence="30"/>
+</odoo>

@@ -1,0 +1,62 @@
+<odoo>
+    <!-- List View -->
+    <record id="view_exam_tree" model="ir.ui.view">
+        <field name="name">exam.list</field>
+        <field name="model">student.exam</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="exam_type_id"/>
+                <field name="student_id"/>
+                <field name="student_class"/>
+                <field name="subject_id"/>
+                <field name="marks"/>
+                <field name="total_marks"/>
+                <field name="grade"/>
+                <field name="result"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="view_exam_form" model="ir.ui.view">
+        <field name="name">exam.form</field>
+        <field name="model">student.exam</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="exam_type_id"/>
+                        <field name="student_id"/>
+                        <field name="student_class" readonly="1"/>
+                        <field name="student_email" readonly="1"/>
+                        <field name="student_phone" readonly="1"/>
+                        <field name="subject_id"/>
+                        <field name="marks"/>
+                        <field name="total_marks"/>
+                        <field name="grade" readonly="1"/>
+                        <field name="result" readonly="1"/>
+                    </group>
+
+                    <footer>
+                        <button string="Save" class="btn-primary" special="save"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                    </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Search View -->
+    <record id="view_exam_search" model="ir.ui.view">
+        <field name="name">exam.search</field>
+        <field name="model">student.exam</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="exam_type_id"/>
+                <field name="student_id"/>
+                <field name="subject_id"/>
+                <field name="result"/>
+            </search>
+        </field>
+    </record>
+</odoo>

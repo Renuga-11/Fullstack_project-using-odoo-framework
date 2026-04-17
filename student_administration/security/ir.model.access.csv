@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_student_student,access_student_student,model_student_student,,1,1,1,1
+access_student_attendance,access_student_attendance,model_student_attendance,,1,1,1,1
+access_student_leave,access_student_leave,model_student_leave,,1,1,1,1
+access_student_exam,access_student_exam,model_student_exam,,1,1,1,1
+access_student_subject,access_student_subject,model_student_subject,,1,1,1,1
+access_student_skill,access_student_skill,model_student_skill,,1,1,1,1
+access_student_exam_type,access_student_exam_type,model_student_exam_type,,1,1,1,1
+access_student_dashboard,access_student_dashboard,model_student_dashboard,,1,1,1,1

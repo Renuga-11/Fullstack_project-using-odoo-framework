@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="student_spreadsheet_dashboard_group" model="spreadsheet.dashboard.group">
+        <field name="name">Student Administration</field>
+        <field name="sequence">300</field>
+    </record>
+
+    <record id="student_spreadsheet_dashboard" model="spreadsheet.dashboard">
+        <field name="name">Student Dashboard</field>
+        <field name="spreadsheet_binary_data" type="base64" file="student_administration/data/files/student.json"/>
+        <field name="dashboard_group_id" ref="student_spreadsheet_dashboard_group"/>
+        <field name="sequence">300</field>
+    </record>
+</odoo>

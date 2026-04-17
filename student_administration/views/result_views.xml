@@ -1,0 +1,79 @@
+<odoo>
+    <!-- LIST VIEW -->
+    <record id="view_result_list" model="ir.ui.view">
+        <field name="name">result.list</field>
+        <field name="model">student.result</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="student_id"/>
+                <field name="student_class"/>
+                <field name="exam_type_id"/>
+                <field name="total_marks"/>
+                <field name="percentage"/>
+                <field name="grade"/>
+                <field name="rank"/>
+                <field name="result_status"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- FORM VIEW -->
+    <record id="view_result_form" model="ir.ui.view">
+        <field name="name">result.form</field>
+        <field name="model">student.result</field>
+        <field name="arch" type="xml">
+            <form string="Student Result">
+                <header>
+                    <button string="Save" class="btn-primary" special="save"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </header>
+                <sheet>
+                    <group>
+                        <field name="student_id"/>
+                        <field name="student_class" readonly="1"/>
+                        <field name="student_email" readonly="1"/>
+                    </group>
+                    <group string="Exam">
+                        <field name="exam_type_id"/>
+                    </group>
+                    <group>
+                        <field name="total_marks" readonly="1" class="oe_subtotal_footer_separator"/>
+                    </group>
+                    <group>
+                        <field name="percentage" readonly="1"/>
+                        <field name="grade" readonly="1"/>
+                        <field name="rank" readonly="1"/>
+                        <field name="result_status" readonly="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- SEARCH VIEW -->
+    <record id="view_result_search" model="ir.ui.view">
+        <field name="name">result.search</field>
+        <field name="model">student.result</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="student_id"/>
+                <field name="student_class"/>
+                <field name="result_status"/>
+            </search>
+        </field>
+    </record>
+
+    <!-- PIVOT VIEW -->
+    <record id="view_result_pivot" model="ir.ui.view">
+        <field name="name">result.pivot</field>
+        <field name="model">student.result</field>
+        <field name="arch" type="xml">
+            <pivot string="Student Results">
+                <field name="student_class" type="row"/>
+                <field name="total_marks" type="measure"/>
+                <field name="percentage" type="measure"/>
+                <field name="grade" type="col"/>
+            </pivot>
+        </field>
+    </record>
+</odoo>

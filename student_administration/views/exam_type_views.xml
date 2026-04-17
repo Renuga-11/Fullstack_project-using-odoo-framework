@@ -1,0 +1,78 @@
+<odoo>
+    <!-- List View -->
+    <record id="view_exam_type_tree" model="ir.ui.view">
+        <field name="name">exam_type.list</field>
+        <field name="model">student.exam_type</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="exam_date"/>
+                <field name="total_students"/>
+                <field name="average_marks"/>
+                <field name="pass_count"/>
+                <field name="fail_count"/>
+                <field name="description"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="view_exam_type_form" model="ir.ui.view">
+        <field name="name">exam_type.form</field>
+        <field name="model">student.exam_type</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="action_send_exam_attendance_message" 
+                                string="Send Attendance Message" 
+                                type="object"
+                                class="oe_stat_button"/>
+                    </div>
+                    <group>
+                        <field name="name" placeholder="e.g., Term 1, Mid Term, Final Exam"/>
+                        <field name="exam_date"/>
+                        <field name="description"/>
+                    </group>
+                    
+                    <!-- Exam Statistics -->
+                    <group string="Exam Statistics" name="exam_stats">
+                        <group>
+                            <field name="total_students" readonly="1"/>
+                            <field name="pass_count" readonly="1"/>
+                            <field name="fail_count" readonly="1"/>
+                        </group>
+                        <group>
+                            <field name="average_marks" readonly="1"/>
+                            <field name="total_marks" readonly="1"/>
+                        </group>
+                    </group>
+                    
+                    <!-- Related Exam Results -->
+                    <group string="Exam Results" name="exam_results">
+                        <field name="exam_ids" nolabel="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Search View -->
+    <record id="view_exam_type_search" model="ir.ui.view">
+        <field name="name">exam_type.search</field>
+        <field name="model">student.exam_type</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="exam_date"/>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action -->
+    <record id="action_exam_type" model="ir.actions.act_window">
+        <field name="name">Exam Types</field>
+        <field name="res_model">student.exam_type</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

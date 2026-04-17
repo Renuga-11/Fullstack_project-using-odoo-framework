@@ -1,0 +1,1205 @@
+{
+  "version": "18.5.10",
+  "sheets": [
+    {
+      "id": "sheet1",
+      "name": "Student",
+      "colNumber": 9,
+      "rowNumber": 120,
+      "rows": {
+        "1": {
+          "size": 40
+        },
+        "10": {
+          "size": 41
+        },
+        "29": {
+          "size": 44
+        },
+        "30": {
+          "size": 35
+        },
+        "31": {
+          "size": 34
+        },
+        "32": {
+          "size": 35
+        },
+        "33": {
+          "size": 32
+        },
+        "34": {
+          "size": 35
+        },
+        "35": {
+          "size": 32
+        },
+        "36": {
+          "size": 36
+        },
+        "37": {
+          "size": 35
+        },
+        "38": {
+          "size": 31
+        },
+        "39": {
+          "size": 36
+        },
+        "40": {
+          "size": 40
+        },
+        "41": {
+          "size": 32
+        },
+        "42": {
+          "size": 32
+        },
+        "43": {
+          "size": 32
+        },
+        "44": {
+          "size": 32
+        },
+        "45": {
+          "size": 32
+        },
+        "46": {
+          "size": 32
+        },
+        "47": {
+          "size": 32
+        },
+        "48": {
+          "size": 32
+        },
+        "49": {
+          "size": 32
+        },
+        "50": {
+          "size": 32
+        },
+        "51": {
+          "size": 32
+        },
+        "52": {
+          "size": 32
+        },
+        "53": {
+          "size": 40
+        },
+        "54": {
+          "size": 32
+        },
+        "55": {
+          "size": 32
+        },
+        "56": {
+          "size": 32
+        },
+        "57": {
+          "size": 32
+        },
+        "58": {
+          "size": 32
+        },
+        "59": {
+          "size": 32
+        },
+        "60": {
+          "size": 32
+        },
+        "61": {
+          "size": 32
+        },
+        "62": {
+          "size": 32
+        },
+        "63": {
+          "size": 32
+        },
+        "64": {
+          "size": 32
+        },
+        "65": {
+          "size": 40
+        },
+        "66": {
+          "size": 32
+        },
+        "67": {
+          "size": 32
+        },
+        "68": {
+          "size": 32
+        },
+        "69": {
+          "size": 32
+        },
+        "70": {
+          "size": 32
+        },
+        "71": {
+          "size": 32
+        },
+        "72": {
+          "size": 32
+        },
+        "73": {
+          "size": 32
+        },
+        "74": {
+          "size": 32
+        },
+        "75": {
+          "size": 32
+        },
+        "76": {
+          "size": 32
+        },
+        "87": {
+          "size": 40
+        },
+        "88": {
+          "size": 32
+        },
+        "89": {
+          "size": 32
+        },
+        "90": {
+          "size": 32
+        },
+        "91": {
+          "size": 32
+        },
+        "92": {
+          "size": 32
+        },
+        "93": {
+          "size": 32
+        },
+        "94": {
+          "size": 32
+        },
+        "95": {
+          "size": 32
+        },
+        "96": {
+          "size": 32
+        },
+        "97": {
+          "size": 32
+        },
+        "98": {
+          "size": 32
+        },
+        "99": {
+          "size": 40
+        },
+        "100": {
+          "size": 32
+        },
+        "101": {
+          "size": 32
+        },
+        "102": {
+          "size": 32
+        },
+        "103": {
+          "size": 32
+        },
+        "104": {
+          "size": 32
+        },
+        "105": {
+          "size": 32
+        },
+        "106": {
+          "size": 32
+        },
+        "107": {
+          "size": 32
+        },
+        "108": {
+          "size": 32
+        },
+        "109": {
+          "size": 32
+        },
+        "110": {
+          "size": 32
+        }
+      },
+      "cols": {
+        "0": {
+          "size": 349
+        },
+        "1": {
+          "size": 95
+        },
+        "2": {
+          "size": 80
+        },
+        "3": {
+          "size": 50
+        },
+        "4": {
+          "size": 217
+        }
+      },
+      "cells": {
+        "A11": "[Student Mark Analysis](odoo://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"exam_type_id\"],\"graph_measure\":\"marks\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"exam_type_id\"]},\"modelName\":\"student.exam\",\"views\":[[false,\"graph\"],[false,\"list\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Student Mark Analysis\"})",
+        "A29": "[Attendance Status](odoo://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"attendance_status\"],\"graph_measure\":\"__count__\",\"graph_mode\":\"pie\",\"graph_groupbys\":[\"attendance_status\"]},\"modelName\":\"student.student\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Attendance Status\"})",
+        "E29": "[Students By Department](odoo://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"class_name\"],\"graph_measure\":\"__count__\",\"graph_mode\":\"line\",\"graph_groupbys\":[\"class_name\"]},\"modelName\":\"student.student\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Students By Department\"})",
+        "A40": "[Leave Reasons](odoo://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"leave_reason\"],\"graph_measure\":\"__count__\",\"graph_mode\":\"pie\",\"graph_groupbys\":[\"leave_reason\"]},\"modelName\":\"student.leave\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Leave Reasons\"})",
+        "E40": "[Results By Grade](odoo://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"grade\"],\"graph_measure\":\"__count__\",\"graph_mode\":\"line\",\"graph_groupbys\":[\"grade\"]},\"modelName\":\"student.exam\",\"views\":[[false,\"graph\"],[false,\"list\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Results By Grade\"})",
+        "A53": "[Students By Gender](odoo://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"gender\"],\"graph_measure\":\"__count__\",\"graph_mode\":\"pie\",\"graph_groupbys\":[\"gender\"]},\"modelName\":\"student.student\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Students By Gender\"})",
+        "E53": "[Leave Status](odoo://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"state\"],\"graph_measure\":\"__count__\",\"graph_mode\":\"pie\",\"graph_groupbys\":[\"state\"]},\"modelName\":\"student.leave\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Leave Status\"})",
+        "A64": "[Exam Result Status](odoo://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"result\"],\"graph_measure\":\"__count__\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"result\"]},\"modelName\":\"student.exam\",\"views\":[[false,\"graph\"],[false,\"list\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Exam Result Status\"})",
+        "E64": "[Attendance By Department](odoo://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"student_class\"],\"graph_measure\":\"__count__\",\"graph_mode\":\"bar\",\"graph_groupbys\":[\"student_class\"]},\"modelName\":\"student.attendance\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Attendance By Department\"})",
+        "A88": "[Student Age Distribution](odoo://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[],\"context\":{\"group_by\":[\"age\"],\"graph_measure\":\"__count__\",\"graph_mode\":\"line\",\"graph_groupbys\":[\"age\"]},\"modelName\":\"student.student\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Student Age Distribution\"})",
+        "E99": "[Subject Wise Pass Analysis](odoo://view/{\"viewType\":\"graph\",\"action\":{\"domain\":[[\"result\",\"=\",\"Pass\"]],\"context\":{\"group_by\":[\"subject\"],\"graph_measure\":\"__count__\",\"graph_mode\":\"line\",\"graph_groupbys\":[\"subject\"]},\"modelName\":\"student.exam\",\"views\":[[false,\"graph\"],[false,\"pivot\"],[false,\"search\"]]},\"threshold\":0,\"name\":\"Subject Wise Pass Analysis\"})"
+      },
+      "styles": {
+        "A11": 1,
+        "A29": 1,
+        "E29": 1,
+        "A88": 1,
+        "E99": 1,
+        "A12": 2,
+        "A40:D40": 3,
+        "E30:F30": 4,
+        "H30:I30": 4,
+        "E40:I40": 5,
+        "G30": 6
+      },
+      "formats": {},
+      "borders": {
+        "B11:E11": 1,
+        "A11": 1,
+        "F11:G11": 1,
+        "A29": 1,
+        "B29:D29": 1,
+        "E30:G30": 2,
+        "H30": 2,
+        "I30": 2,
+        "H11": 1,
+        "I11": 1
+      },
+      "conditionalFormats": [],
+      "dataValidationRules": [],
+      "figures": [
+        {
+          "id": "67858d0e-b5ba-4a3c-bf9e-c0fceaeedf65",
+          "width": 320,
+          "height": 101,
+          "tag": "chart",
+          "data": {
+            "type": "scorecard",
+            "title": {
+              "text": "Total Student",
+              "bold": true,
+              "color": "#434343"
+            },
+            "background": "#ECFDF5",
+            "keyValue": "Data!B2",
+            "humanize": false,
+            "chartId": "67858d0e-b5ba-4a3c-bf9e-c0fceaeedf65"
+          },
+          "offset": {
+            "x": 0,
+            "y": 11
+          },
+          "col": 0,
+          "row": 0
+        },
+        {
+          "id": "d87100ea-2fd1-4564-9ebf-3c821e899a35",
+          "width": 320,
+          "height": 101,
+          "tag": "chart",
+          "data": {
+            "type": "scorecard",
+            "title": {
+              "text": "Total Subjects",
+              "bold": true,
+              "color": "#434343"
+            },
+            "background": "#EFF6FF",
+            "keyValue": "Data!B3",
+            "humanize": false,
+            "chartId": "d87100ea-2fd1-4564-9ebf-3c821e899a35"
+          },
+          "offset": {
+            "x": 0,
+            "y": 11
+          },
+          "col": 3,
+          "row": 0
+        },
+        {
+          "id": "2db1fc8c-f804-46d5-9e17-c7ea4053e5b4",
+          "width": 320,
+          "height": 101,
+          "tag": "chart",
+          "data": {
+            "type": "scorecard",
+            "title": {
+              "text": "Pass Count",
+              "bold": true,
+              "color": "#434343"
+            },
+            "background": "#FEF3C7",
+            "keyValue": "Data!B4",
+            "humanize": false,
+            "chartId": "2db1fc8c-f804-46d5-9e17-c7ea4053e5b4"
+          },
+          "offset": {
+            "x": 0,
+            "y": 11
+          },
+          "col": 6,
+          "row": 0
+        },
+        {
+          "id": "bc7bc6b7-01fd-4c5b-9641-33ccbc896130",
+          "width": 1095,
+          "height": 344,
+          "tag": "chart",
+          "data": {
+            "title": {
+              "text": "",
+              "color": "#EFF6FF"
+            },
+            "background": "#FFFFFF",
+            "legendPosition": "top",
+            "metaData": {
+              "groupBy": [
+                "exam_type_id"
+              ],
+              "measure": "marks",
+              "order": null,
+              "resModel": "student.exam",
+              "mode": "line"
+            },
+            "searchParams": {
+              "comparison": null,
+              "context": {
+                "group_by": []
+              },
+              "domain": [],
+              "groupBy": [
+                "exam_type_id"
+              ],
+              "orderBy": []
+            },
+            "type": "odoo_line",
+            "dataSets": [],
+            "verticalAxisPosition": "left",
+            "stacked": false,
+            "axesDesign": {
+              "y": {
+                "title": {
+                  "text": "Marks"
+                }
+              }
+            },
+            "chartId": "bc7bc6b7-01fd-4c5b-9641-33ccbc896130",
+            "fieldMatching": {
+              "period_filter": {
+                "chain": "exam_date",
+                "type": "date"
+              },
+              "department_filter": {
+                "chain": "student_class",
+                "type": "char"
+              }
+            }
+          },
+          "offset": {
+            "x": 0,
+            "y": 13
+          },
+          "col": 0,
+          "row": 12
+        },
+        {
+          "id": "9f240e47-1bb7-4fc9-b16d-6501a1fd7a01",
+          "width": 520,
+          "height": 300,
+          "tag": "chart",
+          "data": {
+            "title": {
+              "text": "",
+              "color": "#EFF6FF"
+            },
+            "background": "#FFFFFF",
+            "legendPosition": "top",
+            "metaData": {
+              "groupBy": [
+                "attendance_status"
+              ],
+              "measure": "__count",
+              "order": null,
+              "resModel": "student.student",
+              "mode": "pie",
+              "cumulatedStart": false
+            },
+            "searchParams": {
+              "comparison": null,
+              "context": {
+                "group_by": [],
+                "graph_measure": "__count__"
+              },
+              "domain": [],
+              "groupBy": [
+                "attendance_status"
+              ],
+              "orderBy": []
+            },
+            "type": "odoo_pie",
+            "dataSets": [],
+            "chartId": "9f240e47-1bb7-4fc9-b16d-6501a1fd7a01",
+            "fieldMatching": {
+              "department_filter": {
+                "chain": "class_name",
+                "type": "char"
+              }
+            }
+          },
+          "offset": {
+            "x": 0,
+            "y": 13
+          },
+          "col": 0,
+          "row": 29
+        },
+        {
+          "id": "c7aca8a0-2f39-4b55-bd37-c090de95dc9d",
+          "width": 560,
+          "height": 300,
+          "tag": "chart",
+          "data": {
+            "title": {
+              "text": "",
+              "color": "#EFF6FF"
+            },
+            "background": "#FFFFFF",
+            "legendPosition": "top",
+            "metaData": {
+              "groupBy": [
+                "class_name"
+              ],
+              "measure": "__count",
+              "order": null,
+              "resModel": "student.student",
+              "mode": "line"
+            },
+            "searchParams": {
+              "comparison": null,
+              "context": {
+                "group_by": [],
+                "graph_measure": "__count__"
+              },
+              "domain": [],
+              "groupBy": [
+                "class_name"
+              ],
+              "orderBy": []
+            },
+            "type": "odoo_line",
+            "dataSets": [],
+            "verticalAxisPosition": "left",
+            "stacked": false,
+            "chartId": "c7aca8a0-2f39-4b55-bd37-c090de95dc9d",
+            "fieldMatching": {
+              "department_filter": {
+                "chain": "class_name",
+                "type": "char"
+              }
+            }
+          },
+          "offset": {
+            "x": 0,
+            "y": 13
+          },
+          "col": 4,
+          "row": 29
+        },
+        {
+          "id": "0e0e9234-cd3b-4ff0-9534-2a4420d0e496",
+          "width": 520,
+          "height": 300,
+          "tag": "chart",
+          "data": {
+            "title": {
+              "text": "",
+              "color": "#EFF6FF"
+            },
+            "background": "#FFFFFF",
+            "legendPosition": "top",
+            "metaData": {
+              "groupBy": [
+                "leave_reason"
+              ],
+              "measure": "__count",
+              "order": null,
+              "resModel": "student.leave",
+              "mode": "pie",
+              "cumulatedStart": false
+            },
+            "searchParams": {
+              "comparison": null,
+              "context": {
+                "group_by": [],
+                "graph_measure": "__count__"
+              },
+              "domain": [],
+              "groupBy": [
+                "leave_reason"
+              ],
+              "orderBy": []
+            },
+            "type": "odoo_pie",
+            "dataSets": [],
+            "chartId": "0e0e9234-cd3b-4ff0-9534-2a4420d0e496",
+            "fieldMatching": {
+              "period_filter": {
+                "chain": "leave_from",
+                "type": "date"
+              },
+              "department_filter": {
+                "chain": "student_class",
+                "type": "char"
+              }
+            }
+          },
+          "offset": {
+            "x": 0,
+            "y": 13
+          },
+          "col": 0,
+          "row": 40
+        },
+        {
+          "id": "3d698f03-90e6-4172-90e9-55f1005d5de2",
+          "width": 560,
+          "height": 300,
+          "tag": "chart",
+          "data": {
+            "title": {
+              "text": "",
+              "color": "#EFF6FF"
+            },
+            "background": "#FFFFFF",
+            "legendPosition": "top",
+            "metaData": {
+              "groupBy": [
+                "grade"
+              ],
+              "measure": "__count",
+              "order": null,
+              "resModel": "student.exam",
+              "mode": "line"
+            },
+            "searchParams": {
+              "comparison": null,
+              "context": {
+                "group_by": [],
+                "graph_measure": "__count__"
+              },
+              "domain": [],
+              "groupBy": [
+                "grade"
+              ],
+              "orderBy": []
+            },
+            "type": "odoo_line",
+            "dataSets": [],
+            "verticalAxisPosition": "left",
+            "stacked": false,
+            "chartId": "3d698f03-90e6-4172-90e9-55f1005d5de2",
+            "fieldMatching": {
+              "period_filter": {
+                "chain": "exam_date",
+                "type": "date"
+              },
+              "department_filter": {
+                "chain": "student_class",
+                "type": "char"
+              }
+            }
+          },
+          "offset": {
+            "x": 0,
+            "y": 13
+          },
+          "col": 4,
+          "row": 40
+        },
+        {
+          "id": "8d665a77-697e-4925-ac88-73ab4a0bca4c",
+          "width": 520,
+          "height": 300,
+          "tag": "chart",
+          "data": {
+            "title": {
+              "text": "",
+              "color": "#EFF6FF"
+            },
+            "background": "#FFFFFF",
+            "legendPosition": "top",
+            "metaData": {
+              "groupBy": [
+                "gender"
+              ],
+              "measure": "__count",
+              "order": null,
+              "resModel": "student.student",
+              "mode": "pie",
+              "cumulatedStart": false
+            },
+            "searchParams": {
+              "comparison": null,
+              "context": {
+                "group_by": [],
+                "graph_measure": "__count__"
+              },
+              "domain": [],
+              "groupBy": [
+                "gender"
+              ],
+              "orderBy": []
+            },
+            "type": "odoo_pie",
+            "dataSets": [],
+            "isDoughnut": true,
+            "pieHolePercentage": 55,
+            "chartId": "8d665a77-697e-4925-ac88-73ab4a0bca4c",
+            "fieldMatching": {
+              "department_filter": {
+                "chain": "class_name",
+                "type": "char"
+              }
+            }
+          },
+          "offset": {
+            "x": 0,
+            "y": 13
+          },
+          "col": 0,
+          "row": 53
+        },
+        {
+          "id": "99cc028e-1607-4829-b36a-ff5f6fce0715",
+          "width": 560,
+          "height": 300,
+          "tag": "chart",
+          "data": {
+            "title": {
+              "text": "",
+              "color": "#EFF6FF"
+            },
+            "background": "#FFFFFF",
+            "legendPosition": "top",
+            "metaData": {
+              "groupBy": [
+                "state"
+              ],
+              "measure": "__count",
+              "order": null,
+              "resModel": "student.leave",
+              "mode": "pie",
+              "cumulatedStart": false
+            },
+            "searchParams": {
+              "comparison": null,
+              "context": {
+                "group_by": [],
+                "graph_measure": "__count__"
+              },
+              "domain": [],
+              "groupBy": [
+                "state"
+              ],
+              "orderBy": []
+            },
+            "type": "odoo_pie",
+            "dataSets": [],
+            "isDoughnut": true,
+            "pieHolePercentage": 55,
+            "chartId": "99cc028e-1607-4829-b36a-ff5f6fce0715",
+            "fieldMatching": {
+              "period_filter": {
+                "chain": "leave_from",
+                "type": "date"
+              },
+              "department_filter": {
+                "chain": "student_class",
+                "type": "char"
+              }
+            }
+          },
+          "offset": {
+            "x": 0,
+            "y": 13
+          },
+          "col": 4,
+          "row": 53
+        },
+        {
+          "id": "05652ce9-a520-4c73-ba4c-6cfb0260ce8d",
+          "width": 520,
+          "height": 300,
+          "tag": "chart",
+          "data": {
+            "title": {
+              "text": "",
+              "color": "#EFF6FF"
+            },
+            "background": "#FFFFFF",
+            "legendPosition": "top",
+            "metaData": {
+              "groupBy": [
+                "result"
+              ],
+              "measure": "__count",
+              "order": null,
+              "resModel": "student.exam",
+              "mode": "bar"
+            },
+            "searchParams": {
+              "comparison": null,
+              "context": {
+                "group_by": [],
+                "graph_measure": "__count__"
+              },
+              "domain": [],
+              "groupBy": [
+                "result"
+              ],
+              "orderBy": []
+            },
+            "type": "odoo_bar",
+            "dataSets": [],
+            "verticalAxisPosition": "left",
+            "stacked": false,
+            "chartId": "05652ce9-a520-4c73-ba4c-6cfb0260ce8d",
+            "fieldMatching": {
+              "period_filter": {
+                "chain": "exam_date",
+                "type": "date"
+              },
+              "department_filter": {
+                "chain": "student_class",
+                "type": "char"
+              }
+            }
+          },
+          "offset": {
+            "x": 0,
+            "y": 13
+          },
+          "col": 0,
+          "row": 64
+        },
+        {
+          "id": "7c8a96bb-feb8-46d2-bab6-0796b72de4c6",
+          "width": 560,
+          "height": 300,
+          "tag": "chart",
+          "data": {
+            "title": {
+              "text": "",
+              "color": "#EFF6FF"
+            },
+            "background": "#FFFFFF",
+            "legendPosition": "top",
+            "metaData": {
+              "groupBy": [
+                "student_class"
+              ],
+              "measure": "__count",
+              "order": null,
+              "resModel": "student.attendance",
+              "mode": "bar"
+            },
+            "searchParams": {
+              "comparison": null,
+              "context": {
+                "group_by": [],
+                "graph_measure": "__count__"
+              },
+              "domain": [],
+              "groupBy": [
+                "student_class"
+              ],
+              "orderBy": []
+            },
+            "type": "odoo_bar",
+            "dataSets": [],
+            "verticalAxisPosition": "left",
+            "stacked": false,
+            "chartId": "7c8a96bb-feb8-46d2-bab6-0796b72de4c6",
+            "fieldMatching": {
+              "period_filter": {
+                "chain": "date",
+                "type": "date"
+              },
+              "department_filter": {
+                "chain": "student_class",
+                "type": "char"
+              }
+            }
+          },
+          "offset": {
+            "x": 0,
+            "y": 13
+          },
+          "col": 4,
+          "row": 64
+        },
+        {
+          "id": "fe8c14ab-4adf-47ce-b0a0-9127ec9f5363",
+          "width": 1095,
+          "height": 300,
+          "tag": "chart",
+          "data": {
+            "title": {
+              "text": "",
+              "color": "#EFF6FF"
+            },
+            "background": "#FFFFFF",
+            "legendPosition": "top",
+            "metaData": {
+              "groupBy": [
+                "age"
+              ],
+              "measure": "__count",
+              "order": null,
+              "resModel": "student.student",
+              "mode": "line",
+              "cumulatedStart": false
+            },
+            "searchParams": {
+              "comparison": null,
+              "context": {
+                "group_by": [],
+                "graph_measure": "__count__"
+              },
+              "domain": [],
+              "groupBy": [
+                "age"
+              ],
+              "orderBy": []
+            },
+            "type": "odoo_line",
+            "dataSets": [],
+            "verticalAxisPosition": "left",
+            "stacked": false,
+            "cumulatedStart": false,
+            "chartId": "fe8c14ab-4adf-47ce-b0a0-9127ec9f5363",
+            "fieldMatching": {
+              "department_filter": {
+                "chain": "class_name",
+                "type": "char"
+              }
+            }
+          },
+          "offset": {
+            "x": 0,
+            "y": 13
+          },
+          "col": 0,
+          "row": 88
+        },
+        {
+          "id": "f6a6ea11-7d18-4f90-92b8-05fd57b2f59c",
+          "width": 560,
+          "height": 300,
+          "tag": "chart",
+          "data": {
+            "title": {
+              "text": "",
+              "color": "#EFF6FF"
+            },
+            "background": "#FFFFFF",
+            "legendPosition": "top",
+            "metaData": {
+              "groupBy": [
+                "subject"
+              ],
+              "measure": "__count",
+              "order": null,
+              "resModel": "student.exam",
+              "mode": "bar"
+            },
+            "searchParams": {
+              "comparison": null,
+              "context": {
+                "group_by": [],
+                "graph_measure": "__count__"
+              },
+              "domain": [
+                [
+                  "result",
+                  "=",
+                  "Pass"
+                ]
+              ],
+              "groupBy": [
+                "subject"
+              ],
+              "orderBy": []
+            },
+            "type": "odoo_radar",
+            "dataSets": [],
+            "stacked": false,
+            "axesDesign": {
+              "y": {
+                "title": {
+                  "text": "Pass Count"
+                }
+              }
+            },
+            "chartId": "f6a6ea11-7d18-4f90-92b8-05fd57b2f59c",
+            "fieldMatching": {
+              "period_filter": {
+                "chain": "exam_date",
+                "type": "date"
+              },
+              "department_filter": {
+                "chain": "student_class",
+                "type": "char"
+              }
+            }
+          },
+          "offset": {
+            "x": 0,
+            "y": 13
+          },
+          "col": 4,
+          "row": 100
+        }
+      ],
+      "areGridLinesVisible": true,
+      "isVisible": true,
+      "headerGroups": {
+        "ROW": [],
+        "COL": []
+      },
+      "comments": {}
+    },
+    {
+      "id": "eae01f9c-c461-4489-ade4-957ef2459d40",
+      "name": "Data",
+      "colNumber": 26,
+      "rowNumber": 103,
+      "rows": {},
+      "cols": {
+        "0": {
+          "size": 160
+        },
+        "1": {
+          "size": 89
+        },
+        "2": {
+          "size": 89
+        },
+        "3": {
+          "size": 89
+        },
+        "4": {
+          "size": 89
+        }
+      },
+      "merges": [],
+      "cells": {
+        "A1": "=_t(\"KPI\")",
+        "A2": "=_t(\"Total Students\")",
+        "B2": "=PIVOT.VALUE(1,\"__count\")",
+        "A3": "=_t(\"Total Subjects\")",
+        "B3": "=PIVOT.VALUE(2,\"__count\")",
+        "A4": "=_t(\"Pass Count\")",
+        "B4": "=PIVOT.VALUE(3,\"__count\")"
+      },
+      "styles": {},
+      "formats": {},
+      "borders": {},
+      "conditionalFormats": [],
+      "dataValidationRules": [],
+      "figures": [],
+      "tables": [],
+      "areGridLinesVisible": true,
+      "isVisible": true,
+      "headerGroups": {
+        "ROW": [],
+        "COL": []
+      },
+      "comments": {}
+    }
+  ],
+  "styles": {
+    "1": {
+      "textColor": "#01666b",
+      "bold": true,
+      "fontSize": 16
+    },
+    "2": {
+      "fontSize": 14,
+      "textColor": "#43C5B1"
+    },
+    "3": {
+      "textColor": "#43C5B1"
+    },
+    "4": {
+      "bold": true,
+      "fontSize": 11,
+      "textColor": "#434343",
+      "verticalAlign": "middle"
+    },
+    "5": {
+      "textColor": "#000000"
+    },
+    "6": {
+      "align": "center",
+      "fontSize": 11,
+      "textColor": "#434343",
+      "verticalAlign": "middle",
+      "bold": true
+    }
+  },
+  "borders": {
+    "1": {
+      "bottom": {
+        "color": "#CCCCCC",
+        "style": "thin"
+      }
+    },
+    "2": {
+      "top": {
+        "color": "#CCCCCC",
+        "style": "thin"
+      }
+    }
+  },
+  "revisionId": "2c331025-f3df-4ee4-909f-59b00ad02df2",
+  "uniqueFigureIds": true,
+  "settings": {
+    "locale": {
+      "name": "English (India)",
+      "code": "en_IN",
+      "thousandsSeparator": ",",
+      "decimalSeparator": ".",
+      "dateFormat": "dd/mm/yyyy",
+      "timeFormat": "hh:mm:ss",
+      "formulaArgSeparator": ",",
+      "weekStart": 7
+    }
+  },
+  "pivots": {
+    "1": {
+      "type": "ODOO",
+      "fieldMatching": {
+        "department_filter": {
+          "chain": "class_name",
+          "type": "char"
+        }
+      },
+      "context": {
+        "group_by": [],
+        "graph_measure": "__count__",
+        "graph_mode": "bar"
+      },
+      "domain": [],
+      "id": "1",
+      "measures": [
+        {
+          "id": "__count",
+          "fieldName": "__count",
+          "userDefinedName": "# Students"
+        }
+      ],
+      "model": "student.student",
+      "name": "Student",
+      "sortedColumn": null,
+      "formulaId": "1",
+      "columns": [],
+      "rows": []
+    },
+    "2": {
+      "type": "ODOO",
+      "fieldMatching": {},
+      "context": {
+        "group_by": [],
+        "graph_measure": "__count__",
+        "graph_mode": "bar"
+      },
+      "domain": [],
+      "id": "2",
+      "measures": [
+        {
+          "id": "__count",
+          "fieldName": "__count",
+          "userDefinedName": "# Subjects"
+        }
+      ],
+      "model": "student.subject",
+      "name": "Subject",
+      "sortedColumn": null,
+      "formulaId": "2",
+      "columns": [],
+      "rows": []
+    },
+    "3": {
+      "type": "ODOO",
+      "fieldMatching": {
+        "department_filter": {
+          "chain": "class_name",
+          "type": "char"
+        }
+      },
+      "context": {
+        "group_by": [],
+        "graph_measure": "__count__",
+        "graph_mode": "bar"
+      },
+      "domain": [
+        [
+          "overall_pass",
+          "=",
+          true
+        ]
+      ],
+      "id": "3",
+      "measures": [
+        {
+          "id": "__count",
+          "fieldName": "__count",
+          "userDefinedName": "# Passed Students"
+        }
+      ],
+      "model": "student.student",
+      "name": "Pass Count",
+      "sortedColumn": null,
+      "formulaId": "3",
+      "columns": [],
+      "rows": []
+    }
+  },
+  "pivotNextId": 4,
+  "customTableStyles": {},
+  "globalFilters": [
+    {
+      "id": "period_filter",
+      "type": "date",
+      "label": "Period"
+    },
+    {
+      "id": "department_filter",
+      "type": "text",
+      "label": "Department"
+    }
+  ],
+  "chartOdooMenusReferences": {}
+}

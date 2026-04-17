@@ -1,0 +1,64 @@
+<odoo>
+    <!-- Subject Action -->
+    <record id="action_subject" model="ir.actions.act_window">
+        <field name="name">Subjects</field>
+        <field name="res_model">student.subject</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <!-- Skill Action -->
+    <record id="action_skill" model="ir.actions.act_window">
+        <field name="name">Skills</field>
+        <field name="res_model">student.skill</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <!-- Exam Type Action -->
+    <record id="action_exam_type" model="ir.actions.act_window">
+        <field name="name">Exam Types</field>
+        <field name="res_model">student.exam_type</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <!-- Student Action -->
+    <record id="action_students" model="ir.actions.act_window">
+        <field name="name">Students</field>
+        <field name="res_model">student.student</field>
+        <field name="view_mode">kanban,list,form,graph</field>
+    </record>
+
+    <!-- Attendance Action -->
+    <record id="action_attendance" model="ir.actions.act_window">
+        <field name="name">Attendance</field>
+        <field name="res_model">student.attendance</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <!-- Leave Action -->
+    <record id="action_student_leave" model="ir.actions.act_window">
+        <field name="name">Student Leave</field>
+        <field name="res_model">student.leave</field>
+        <field name="view_mode">list,calendar,form</field>
+    </record>
+
+    <!-- Exam Action -->
+    <record id="action_exam" model="ir.actions.act_window">
+        <field name="name">Exam Results</field>
+        <field name="res_model">student.exam</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <!-- Result Action -->
+    <record id="action_result" model="ir.actions.act_window">
+        <field name="name">Student Results</field>
+        <field name="res_model">student.result</field>
+        <field name="view_mode">list,form,pivot</field>
+    </record>
+
+    <!-- Dashboard Action -->
+    <record id="action_dashboard" model="ir.actions.act_window">
+        <field name="name">Dashboard</field>
+        <field name="res_model">student.dashboard</field>
+        <field name="view_mode">form</field>
+    </record>
+</odoo>

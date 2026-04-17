@@ -1,0 +1,58 @@
+<odoo>
+    <!-- List View -->
+    <record id="view_attendance_tree" model="ir.ui.view">
+        <field name="name">attendance.list</field>
+        <field name="model">student.attendance</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="student_id"/>
+                <field name="student_class"/>
+                <field name="date"/>
+                <field name="check_in"/>
+                <field name="check_out"/>
+                <field name="late_minutes"/>
+                <field name="status"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="view_attendance_form" model="ir.ui.view">
+        <field name="name">attendance.form</field>
+        <field name="model">student.attendance</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="student_id"/>
+                        <field name="student_class" readonly="1"/>
+                        <field name="student_email" readonly="1"/>
+                        <field name="date"/>
+                        <field name="check_in" widget="float_time"/>
+                        <field name="check_out" widget="float_time"/>
+                        <field name="late_minutes" readonly="1"/>
+                        <field name="status" readonly="1"/>
+                    </group>
+
+                    <footer>
+                        <button string="Save" class="btn-primary" special="save"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                    </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Search View -->
+    <record id="view_attendance_search" model="ir.ui.view">
+        <field name="name">attendance.search</field>
+        <field name="model">student.attendance</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="student_id"/>
+                <field name="date"/>
+                <field name="status"/>
+            </search>
+        </field>
+    </record>
+</odoo>
